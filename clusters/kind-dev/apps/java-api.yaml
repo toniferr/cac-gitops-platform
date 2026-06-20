@@ -5,11 +5,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m
-  path: ./java-api/k8s
+  path: ./k8s
   prune: true
   wait: true
   timeout: 2m
   sourceRef:
     kind: GitRepository
-    name: apps
+    name: java-api
   targetNamespace: java-api

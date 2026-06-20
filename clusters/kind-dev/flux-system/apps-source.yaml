@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: apps
+  name: java-api
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/toniferr/apps.git
+  url: https://github.com/toniferr/java-api-gitops.git
   ref:
     branch: main
