@@ -5,6 +5,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/toniferr/cac-gitops-platform
+  url: https://github.com/toniferr/apps.git
   ref:
     branch: main
