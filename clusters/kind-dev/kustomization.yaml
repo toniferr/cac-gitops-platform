@@ -1,0 +1,5 @@
+resources:
+  - flux-system
+  - ../../infrastructure/namespaces
+  - infrastructure
+  - apps
