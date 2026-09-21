@@ -7,4 +7,4 @@ spec:
   interval: 1m
   url: https://github.com/toniferr/java-api-gitops.git
   ref:
-    branch: main
+    branch: training/01-gitops-flux-foundations
